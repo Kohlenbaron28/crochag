@@ -1,0 +1,33 @@
+.header_container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.16em;
+    text-align: left;
+    padding: 20px 140px;
+
+    .header-left {
+        display: flex;
+        align-items: center;
+        div {
+            margin: 0 20px;
+        }
+    }
+    .header-center {
+        font-size: 36px;
+        font-weight: 200;
+        line-height: 44px;
+        letter-spacing: -0.1em;
+
+    }
+    .header-right {
+        display: flex;
+        align-items: center;
+        div {
+            margin: 0 20px;
+        }
+
+    }
+}
