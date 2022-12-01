@@ -1,8 +1,10 @@
+import SwMain from "../Switers/SwMain"
+import CardMain from "../Cardigans/CardMain"
 
 export default function Home() {
     return(
-        <div>
-           <p>home</p>
+        <div className="home_container">
+           <SwMain/>
         </div>
        
     )

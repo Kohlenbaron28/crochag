@@ -16,48 +16,84 @@ function App() {
         {
             "name": "Сумочка «лягушачья радость» 😮‍💨",
             "price": 2000,
-            "imageUrl": "./img/acc1.png"
+            "imageUrl": "./uploads/acc1.png"
            },
            {
-            "name": "Termit",
-            "price": 4999,
-            "imageUrl": "./img/acc2.png"
+            "name": "Лягушачья-кошачья шапочка-бини 🐸",
+            "price": 2000,
+            "imageUrl": "./uploads/acc2.png"
            },
            {
-            "name": "Respect",
-            "price": 8199,
-            "imageUrl": "./img/acc3.png"
+            "name": "Сумка - шоппер с Куроми 🤩",
+            "price": 2500,
+            "imageUrl": "./uploads/acc3.png"
            },
            {
-            "name": "Tervolia",
-            "price": 4893,
-            "imageUrl": "./img/acc4.png"
+            "name": "Сумочка-уточка на пуговичке 🐤",
+            "price": 2000,
+            "imageUrl": "./uploads/acc4.png"
            },
            {
-            "name": "Ecco",
-            "price": 4999,
-            "imageUrl": "./img/acc5.png"
+            "name": "Митенки для настоящих готов🖤",
+            "price": 1500,
+            "imageUrl": "./uploads/acc5.png"
            },
            {
-            "name": "Tervolina",
-            "price": 7192,
-            "imageUrl": "./img/acc6.png"
+            "name": "Митенки маленьких принцесс 🧚",
+            "price": 1500,
+            "imageUrl": "./uploads/acc6.png"
            },
            {
-            "name": "Terolina",
-            "price": 4893,
-            "imageUrl": "images/sn7.webp"
+            "name": "Укорочённый свитер «скоро осень» 🐛",
+            "price": 3000,
+            "imageUrl": "./uploads/sw1.png"
            },
            {
-            "name": "Crosby",
-            "price": 4299,
-            "imageUrl": "images/sn8.webp"
+            "name": "Уютный свитер оверсайз 😌",
+            "price": 5490,
+            "imageUrl": "./uploads/sw2.png"
            },
            {
-            "name": "Ascalini",
-            "price": 7410,
-            "imageUrl": "images/sn9.webp"
-           }
+            "name": "Тёплый свитер «паучья любовь»🕷💕",
+            "price": 5000,
+            "imageUrl": "./uploads/sw3.png"
+           },
+           {
+            "name": "Кардиган «ромашковое поле»🌼",
+            "price": 5000,
+            "imageUrl": "./uploads/card1.png"
+           },
+           {
+            "name": "Воздушный кардиган из мохера «нежность»🍓",
+            "price": 5000,
+            "imageUrl": "./uploads/card2.png"
+           },
+           {
+            "name": "Розовый кардиган йолдызлы🤯",
+            "price": 5000,
+            "imageUrl": "./uploads/card3.png"
+           },
+           {
+            "name": "Кардиган «небо» 🌌",
+            "price": 5000,
+            "imageUrl": "./uploads/card4.png"
+           },
+           {
+            "name": "Кофта «настоящий клоун» 🤡",
+            "price": 5000,
+            "imageUrl": "./uploads/card5.png"
+           },
+           {
+            "name": "Мохеровый кардиган «сахарная вата»🍭",
+            "price": 5000,
+            "imageUrl": "./uploads/card6.png"
+           },
+           {
+            "name": "Кардиган «небо» 🌌",
+            "price": 5000,
+            "imageUrl": "./uploads/sw3.png"
+           },
+           
     ]);
   return (
     <AppContext.Provider value={items}>
